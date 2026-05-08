@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.gallery-swiper .swiper-pagination {
+    position: static !important;
+    margin-top: 12px;
+}
+
+.gallery-swiper .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background: #D4CCC2 !important;
+    opacity: 1 !important;
+}
+
+.gallery-swiper .swiper-pagination-bullet-active {
+    background: #C45C3E !important;
+}
