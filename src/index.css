@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .gallery-swiper .swiper-pagination {
     position: static !important;
     margin-top: 12px;

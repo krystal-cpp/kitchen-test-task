@@ -1,10 +1,3 @@
-const scrollToBookingForm = () => {
-    const element = document.getElementById('booking-form');
-    if(element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-};
-
 export default function Header() {
     return (
         <div className='w-full p-5 lg:p-12 flex flex-col lg:flex-row lg:justify-between'>
@@ -14,8 +7,8 @@ export default function Header() {
                 <span className='font-bold text-[#C45C3E]'> кухня</span>
             </div>
             <div className='flex text-xs lg:text-sm gap-5'>
-                <a className='text-[#5C5248] hover:underline'>Меню</a>
-                <a onClick={scrollToBookingForm} className='text-[#C45C3E] hover:underline'>К бронированию</a>
+                <a href='#' className='text-[#5C5248] hover:underline focus-visible:underline focus-visible:outline-none'>Меню</a>
+                <a href='#booking-form' className='text-[#C45C3E] hover:underline focus-visible:underline focus-visible:outline-none'>К бронированию</a>
             </div>
         </div>
     );

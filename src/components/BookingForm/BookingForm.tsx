@@ -70,7 +70,7 @@ export default function BookingForm() {
                                 <input name='phone' id='phone' required type='tel' className='h-10 bg-[#FAF6F1] border border-[#D4CCC2] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C45C3E]' />
                                 <p className='text-xs text-[#C45C3E]'>{errors.phone}</p>
                             </div>
-                            <button type='submit' disabled={isSubmitting} className='bg-[#5C6B4A] hover:bg-[#4A5640] text-white rounded-lg text-base font-medium flex items-center justify-center w-fit px-7 py-2 disabled:opacity-50 disabled:cursor-not-allowed'>{isSubmitting ? "Отправка..." : "Отправить"}</button>
+                            <button type='submit' disabled={isSubmitting} className='bg-[#5C6B4A] hover:bg-[#4A5640] focus:outline-none focus:ring-2 focus:ring-[#5C6B4A] text-white rounded-lg text-base font-medium flex items-center justify-center w-fit px-7 py-2 disabled:opacity-50 disabled:cursor-not-allowed'>{isSubmitting ? "Отправка..." : "Отправить"}</button>
                         </form>
                     </div>
                 </div>
